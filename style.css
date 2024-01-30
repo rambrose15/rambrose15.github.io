@@ -1,0 +1,120 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.myimg {
+    border-radius: 50%;
+}
+body{
+    background-color: white;
+}
+.header{
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.basetext{
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+.section{
+    margin-top: 150px;
+    margin-left: 300px; 
+    margin-right: 300px; 
+}
+.contact{
+    font-size: 22px;
+    margin-left: 7px;
+    margin-right:35px;
+    padding-left: 0;
+    border-left: 0;
+}
+.imagecenter{
+    margin-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+    margin-top: 20px;
+}
+.HeaderButton{
+   background-color: darkblue;
+   color: white;
+   margin: auto;
+   width: 250px;
+   height: 120px;
+   font-size: 40px;
+   border-radius: 25px;
+   border: 10px solid black;
+   cursor: pointer;
+   transition: transform .15s;
+}
+
+.HeaderButton:hover{
+    transform: scale(1.3);
+}
+
+.content{
+    background-color: rgb(146, 146, 214);
+    border: 10px solid black;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+.subheader{
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.subtext{
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+.subsub{
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+.bullets{
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.logo{
+    width: 180px;
+}
+.logolabel{
+    text-align: center;
+    font-size: 30px;
+}
+.logocontain{
+    padding: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.githubbutton{
+    background-color: purple;
+    color: white;
+    margin-top: 20px;
+   width: 250px;
+   height: 50px;
+   font-size: 30px;
+   border-radius: 25px;
+   border: 4px solid black;
+   cursor: pointer;
+   transition: transform .15s;
+}
+
+.githubbutton:hover{
+    transform: scale(1.3);
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Roger Ambrose Website</title>
+    <link rel="icon" type="image/x-icon" href="SquarePicture.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container" style="padding: 50px;">
+        <div>
+            <img class="myimg" src="SquarePicture.png" alt="My photo" width="500" height="500">
+        </div>
+        <div>
+            <h1 style="font-size:120px; padding-left: 120px; padding-top: 60px; margin-bottom: 0;">Roger Ambrose</h1>
+            <div class="flex-container" style="padding-left: 115px;">
+                <img class="imagecenter" src="Phone Icon.png" width="30" height="30">
+                <div><p class="contact">(343)-364-5531</p></div>
+                <img class="imagecenter" src="Email Icon.png" width="30" height="30">
+                <div><p class="contact">rambrose@uwaterloo.ca</p></div>
+                <img class="imagecenter" src="Github Icon.png" width="30" height="30">
+                <div><p class="contact">github.com/rambrose15</p></div>
+            </div>
+        </div>
+    </div> 
+    <div class="flex-container">
+        <input type="button" class="HeaderButton" onClick="document.getElementById('About').scrollIntoView();"
+        value="About Me"/>
+        <input type="button" class="HeaderButton" onClick="document.getElementById('Experience').scrollIntoView();"
+        value="Experience"/>
+        <input type="button" class="HeaderButton" onClick="document.getElementById('Technical').scrollIntoView();"
+        value="Skills"/>
+        <input type="button" class="HeaderButton" onClick="document.getElementById('Projects').scrollIntoView();"
+        value="Projects"/>
+    </div>
+    <br><br><br>
+    <!--About me section-->
+    <div class="section" id="About">
+        <div class="content">
+            <h1 class="header">About Me</h1>
+            <p class="basetext">Hi, I'm Roger Ambrose. I am currently a first year computer science student at the University of Waterloo.
+                I have a great passion for programming and mathematics, skills which I hope to one day use to make a
+                real positive impact on the world. My current interests include machine learning, and the mathematics
+                which make it work.
+            </p>
+        </div>
+    </div>
+    <!--Work Experience section-->
+    <div class="section" id="Experience">
+        <h1 class="header">My Experience</h1>
+        <div class="flex-container">
+            <div class="content" style="margin-right: 50px">
+                <h1 class="subheader">Math Camp Counsellor</h1>
+                <p class="subsub">Queen's University, 2022-2023 (seasonal)</p>
+                <p class="subtext">I worked as a camp counselor at a math enrichment camp hosted by Queens University.
+                    While there I:
+                    <ul><li class="bullets">Programmed interactive activities and demos for the attendees using Python.</li>
+                    <li class="bullets">Efficiently designed and implemented programs according to supervisor specifications.</li>
+                    <li class="bullets">Collaborated with a small team to design and develop student enrichment activities.</li></ul>
+                </p>
+            </div>
+            <div><img src="Queens Logo.jpeg" width="280" height="385" style="border-radius: 35px;
+            margin-top: 20px;"></div>
+        </div>
+        <div class="flex-container">
+            <div><img src="KSS logo.jpeg" width="220" height="337" style="border-radius: 20px;"></div>
+            <div class="content" style="margin-left: 50px">
+                <h1 class="subheader">Math Tutor</h1>
+                <p class="subsub">Kingston Secondary School 2021-2023</p>
+                <p class="subtext">Throughout high school I worked as a math and science tutor. During this job, I
+                    was able to:
+                    <ul><li class="bullets">Demonstrated strong communication skills in working with both students and supervisors.</li>
+                    <li class="bullets">Developed effective lesson plans to assist students with their learning.</li></ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Projects section-->
+    <div class="section" id="Projects">
+        <h1 class="header">My Projects</h1>
+        <p class="subtext">Below are the two major projects I have completed in the past year.</p>
+        <div class="flex-container">
+            <div class="content" style="margin-right: 50px">
+                <h1 class="subheader">Strategy Game Bot</h1>
+                <p class="subsub">C# & Unity, 2023</p>
+                <p class="subtext">I developed programs to play strategy board games such as Checkers and Quoridor using C++.
+                    <ul><li class="bullets">Programmed interactive activities and demos for the attendees using Python.</li>
+                    <li class="bullets">Involved researching the many algorithms and optimization strategies which go into
+                        similar programs for chess and then adapting them for my purposes.</li>
+                    <li class="bullets">Used the Unity Game Engine for the visual elements and UI</li></ul>
+                </p>
+            </div>
+            <div>
+                <div><img src="Checkers.png" width="340" style="border-radius: 35px;
+                margin-top: 20px;"></div>
+                <input style="margin-left: 45px;" type="button" class="githubbutton" 
+                onClick="window.location.href = 'https://github.com/rambrose15/Quoridor-Bot';"
+                value="See the Github"/>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div>
+                <div><img src="NN Diagram.png" width="340" style="border-radius: 20px;"></div>
+                <input style="margin-left: 45px;" type="button" class="githubbutton" 
+                onClick="window.location.href = 'https://github.com/rambrose15/Basic-Neural-Network';"
+                value="See the Github"/>
+            </div>
+            <div class="content" style="margin-left: 50px">
+                <h1 class="subheader">Neural Network</h1>
+                <p class="subsub">C++, 2023</p>
+                <p class="subtext">I made a neural network in C++ based off of the math I reaearched for my 4,000
+                    word Extended Essay.
+                    <ul><li class="bullets">Required a great deal of research into the algorithms and design that
+                        go into building a neural network.
+                    </li>
+                    <li class="bullets">Was ultimately able to classify data points and simple images.</li></ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Technical skills section-->
+    <div class="section" id="Technical">
+        <h1 class="header">Technical Skills</h1>
+        <p class="subtext">From my projects, classes and work experience I have been able to acquire many
+            technical skills. Here is the list of the programming languages, technologies and software I have
+            experience with:
+        </p> <br>
+        <div class="flex-container">
+            <div class="logocontain">
+                <img class="logo" src="C logo.png">
+                <p class="logolabel">C language</p>
+            </div>
+            <div class="logocontain">
+                <img class="logo" src="C++ logo.png">
+                <p class="logolabel">C++ language</p>
+            </div>
+            <div class="logocontain">
+                <img class="logo" src="C-Sharp logo.png">
+                <p class="logolabel">C# language</p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="logocontain">
+                <img class="logo" src="python logo.png">
+                <p class="logolabel">Python</p>
+            </div>
+            <div class="logocontain">
+                <img class="logo" src="Unity logo.png">
+                <p class="logolabel">Unity <br> Game Engine</p>
+            </div>
+            <div class="logocontain">
+                <img class="logo" src="Github Icon.png">
+                <p class="logolabel">Git/Github</p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="logocontain">
+                <img class="logo" src="VSC logo.png">
+                <p class="logolabel">VSC Editor</p>
+            </div>
+            <div class="logocontain">
+                <img class="logo" src="Linux logo.png">
+                <p class="logolabel">Linux <br>Environment</p>
+            </div>
+            <div class="logocontain">
+                <img class="logo" src="Microsoft logo.png">
+                <p class="logolabel">Microsoft Office</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
